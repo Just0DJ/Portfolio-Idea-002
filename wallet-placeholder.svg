@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Simple wallet-style placeholder illustration -->
+<svg width="720" height="420" viewBox="0 0 720 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="softShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="14" stdDeviation="12" flood-color="#000000" flood-opacity="0.16"/>
+    </filter>
+    <linearGradient id="cardGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F3F6FF"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#60a5fa"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="60" y="60" rx="28" ry="28" width="600" height="300" fill="url(#cardGrad)" filter="url(#softShadow)"/>
+  <!-- pocket flap -->
+  <path d="M80 180 H640 V220 C640 260 600 300 560 300 H160 C120 300 80 260 80 220 V180 Z" fill="#ffffff" stroke="#e5e7eb" stroke-width="2"/>
+  <!-- accent strap -->
+  <rect x="110" y="210" width="500" height="18" rx="9" fill="url(#accentGrad)"/>
+  <!-- card slot -->
+  <rect x="420" y="95" width="180" height="110" rx="14" fill="#ffffff" stroke="#e5e7eb"/>
+  <rect x="435" y="110" width="150" height="14" rx="7" fill="#e5e7eb"/>
+  <rect x="435" y="134" width="110" height="14" rx="7" fill="#e5e7eb" opacity="0.7"/>
+  <rect x="435" y="158" width="130" height="14" rx="7" fill="#e5e7eb" opacity="0.5"/>
+
+  <!-- Decorative circles -->
+  <circle cx="180" cy="150" r="10" fill="#e5e7eb"/>
+  <circle cx="210" cy="150" r="10" fill="#e5e7eb"/>
+  <circle cx="240" cy="150" r="10" fill="#e5e7eb"/>
+
+  <!-- label text -->
+  <text x="100" y="110" font-family="Inter, Arial, sans-serif" font-size="20" fill="#9ca3af">Wallet UI Placeholder</text>
+</svg>
